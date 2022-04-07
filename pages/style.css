@@ -274,7 +274,13 @@ body {
         display: flex;
         justify-content: space-between;
         flex-direction: row-reverse;
+        align-items: center;
         margin-top: 3%;
+    }
+    footer>div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
     }
 }
 

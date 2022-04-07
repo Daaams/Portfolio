@@ -9,7 +9,7 @@ function closeNav() {
 }
 
 var maxL = 0;
-var l = 0;
+var l = 1;
 var decDroite = false;
 var decGauche = false;
 
@@ -44,53 +44,15 @@ function decalage() {
     let width = items[0].offsetWidth;
     let curentWidth = -width;
     let conteneur = document.getElementById("conteneur");
-    console.log(l);
     curentWidth *= l;
-
-    console.log(curentWidth);
     if (decGauche) {
         curentWidth += width;
         conteneur.style.marginLeft = curentWidth.toString() + "px";
         decGauche = false;
     }
     if (decDroite) {
-        
         conteneur.style.marginLeft = curentWidth.toString() + "px";
         decDroite = false;
     }
 
 }
-
-/*function decalageDroite() {
-    var item = document.getElementById('conteneur');
-    var item
-    var windowWidth = window.innerWidth;
-    l++;
-    if (window.innerWidth <= 1000) {
-        switch (l) {
-            case l = 0:
-                item.style.marginLeft = "0%";
-                break;
-            case l = 1:
-                item.style.marginLeft = "-70%";
-                break;
-            case l = 2:
-                item.style.marginLeft = "-140%";
-                break;
-            default:
-                l = 2;
-        }
-    }
-    if (windowWidth > 1000) {
-        switch (l) {
-            case l = 0:
-                item.style.marginLeft = "0%";
-                break;
-            case l = 1:
-                item.style.marginLeft = "-70%";
-                break;
-            default:
-                l = 1;
-        }
-    }
-}*/
