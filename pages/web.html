@@ -12,36 +12,59 @@
         <header>
             <nav>
                 <div id="navigation">
-                    <a href="main.html">
-                        <figure>
-                            <img src="../Images/homeIcon.png" alt="home icon" class="icon">
-                            <figcaption>Menu</figcaption>
-                        </figure>
-                    </a>
-                    <a href="java.html">
-                        <figure>
-                            <img src="../Images/javaIcon.png" alt="java icon" class="icon">
-                            <figcaption>Projets Java</figcaption>
-                        </figure>
-                    </a>
-                    <a href="web.html">
-                        <figure>
-                            <img src="../Images/htmlIcon.png" alt="html icon" class="icon">
-                            <figcaption>Projets Web</figcaption>
-                        </figure>
-                    </a>
-                    <a href="BD.html">
-                        <figure>
-                            <img src="../Images/databaseIcon.png" alt="database icon" class="icon">
-                            <figcaption>Projects Base de données</figcaption>
-                        </figure>
-                    </a>
-                    <a href="VM.html">
-                        <figure>
-                            <img src="../Images/VMIcone.png" alt="Machine virtuelle icon" class="icon">
-                            <figcaption>Projects VM</figcaption>
-                        </figure>
-                    </a>
+                    <img src="../Images/fleche_gauche.png" alt="fleche_gauche" onclick="decalageGauche()">
+                    <div>
+                        <div>
+                            <div id="conteneur">
+                                <a href="main.html" class="item">
+                                    <figure>
+                                        <img src="../Images/homeIcon.png" alt="Menu" class="icon">
+                                        <figcaption>Menu</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="java.html" class="item">
+                                    <figure>
+                                        <img src="../Images/javaIcon.png" alt="Categorie projets java" class="icon">
+                                        <figcaption>Projets Java</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="web.html" class="item">
+                                    <figure>
+                                        <img src="../Images/htmlIcon.png" alt="Categorie projets HTML" class="icon">
+                                        <figcaption>Projets Web</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="BD.html" class="item">
+                                    <figure>
+                                        <img src="../Images/databaseIcon.png" alt="Categorie projets base de données"
+                                            class="icon">
+                                        <figcaption>Projects Base de données</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="VM.html" class="item">
+                                    <figure>
+                                        <img src="../Images/VMIcone.png" alt="Categorie projets avec machine virtuelle"
+                                            class="icon">
+                                        <figcaption>Projects VM</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="management.html" class="item">
+                                    <figure>
+                                        <img src="../Images/managementIcone.png" alt="Categorie projets management"
+                                            class="icon">
+                                        <figcaption>Management</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="perso.html" class="item">
+                                    <figure>
+                                        <img src="../Images/persoIcon.png" alt="Categorie projets personnels" class="icon">
+                                        <figcaption>Perso</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="../Images/fleche_droite.png" alt="fleche_droite" onclick="decalageDroite()">
                 </div>
                 <div>
                     <a href="mailto:levraultdamien@gmail.com">
@@ -58,12 +81,15 @@
                     </a>
                 </div>
             </nav>
+            
             <div id="sideNavigation" class="sidenav">
                 <a href="main.html">Menu</a>
                 <a href="java.html">Projets Java</a>
                 <a href="web.html">Projets Web</a>
                 <a href="BD.html">Projets Base de données</a>
                 <a href="VM.html">Projets VM</a>
+                <a href="management.html">Projets management</a>
+                <a href="perso.html">Projets personnels</a>
                 <a href="#" onclick="closeNav()" class="closebtn">
                     <svg width="30" height="30">
                         <path d="m 0 0 l 30 30 m 0 -30 l -30 30" stroke="#000" stroke-width="2" />
@@ -78,20 +104,6 @@
                         <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
                     </svg>
                 </a>
-                <div>
-                    <a href="mailto:levraultdamien@gmail.com">
-                        <figure>
-                            <img src="../Images/iconMail.png" alt="me contacter" class="icon">
-                            <figcaption>Me contacter</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://www.linkedin.com/feed/">
-                        <figure>
-                            <img src="../Images/iconLinkedin.png" alt="lien LinkedIn" class="icon">
-                            <figcaption>LinkedIn</figcaption>
-                        </figure>
-                    </a>
-                </div>
             </nav>
         </header>
         <main id="portfolios">
