@@ -144,7 +144,7 @@ body {
     #conteneur {
         display: flex;
         align-items: center;
-        transition: 0.8s;
+        transition: 1.5s;
     }
     #navigation>img {
         height: 50%;
@@ -179,8 +179,8 @@ body {
         margin: 0%;
     }
     #conteneur>a {
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 1.5%;
         margin-bottom: 1.5%;
         font-size: 20px;
