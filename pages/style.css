@@ -121,19 +121,6 @@ body {
     }
 }
 
- footer {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        align-items: center;
-        margin-top: 3%;
-    }
- footer>div {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-
 @media screen and (min-width: 801px) {
     nav {
         background-color: #C9D8F8;
@@ -288,6 +275,19 @@ body {
 
     .topnav {
         display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 3%;
+    }
+    footer>div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
     }
 }
 
