@@ -1,6 +1,7 @@
 body {
     padding: 0%;
     margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .icon {
@@ -114,6 +115,11 @@ body {
 #navigation>div::-webkit-scrollbar {
     visibility: hidden;
 }
+@media screen and (width > 1200px) {
+    .fleche{
+        display: none;
+    }
+}
 
 @media screen and (min-width: 801px) {
     nav {
@@ -165,6 +171,7 @@ body {
         align-items: center;
         overflow-x: auto;
         padding-top: 2%;
+        overflow-x: hidden;
     }
 
     #conteneur>a>figure>figcaption {

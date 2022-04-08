@@ -26,7 +26,7 @@ function decalageDroite() {
         maxL = 4;
     }
     else if (window.innerWidth > 1000){
-        maxL = 3
+        maxL = 2
     }
     else if (window.innerWidth <= 900){
         maxL = 5
