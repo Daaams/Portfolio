@@ -22,17 +22,33 @@ function decalageGauche() {
     decalage();
 }
 function decalageDroite() {
-    if (window.innerWidth <= 1000) {
+    var width = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+    console.log(width);
+    if (width >= 1250) {
+        maxL = 2;
+    }
+    else if (width > 950 && width < 1250){
+        maxL = 3;
+    }
+    else if (width >= 950){
         maxL = 4;
     }
-    else if (window.innerWidth > 1000){
-        maxL = 2
+    else {
+        maxL = 4;
+    }
+    /*else if (window.innerWidth < 950){
+        maxL = 5;
     }
     else if (window.innerWidth <= 900){
-        maxL = 5
+        maxL = 6;
     }
-
-    if (l < maxL) {
+    else if (window.innerWidth >= 1250){
+        maxL = 2;
+    }
+    */
+    if (l < maxL){
         l++;
     }
 
