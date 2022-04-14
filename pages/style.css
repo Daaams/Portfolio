@@ -205,6 +205,11 @@ body {
         align-items: center;
         padding-top: 1%;
     }
+    #profil_photo img{
+        width: 180px;
+        height: 225px;
+        border-radius: 25%;
+    }
     #profil_photo>figcaption {
         font-size: 20px;
     }
